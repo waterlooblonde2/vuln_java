@@ -1,4 +1,4 @@
-package com.oktest;
+package com.ok;
 
 public class HelloWorld {
 
