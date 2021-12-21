@@ -12,7 +12,7 @@
   <description>Collection of java code with vulnerabilities</description>
   
   <properties>
-    <jdk.version>1.8</jdk.version>
+    <jdk.version>11</jdk.version>
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
 
