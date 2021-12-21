@@ -1,13 +1,14 @@
-name: Build
+name: Sonar Scan
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [ main ]
+  schedule:
+    - cron: '16 18 * * 4'
 jobs:
   build:
-    name: Build
+    name: Analyze
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
