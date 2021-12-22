@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 import javax.sql.DataSource;
 
-public class Controller {  
+public class SQLInjection {  
   public void unsafeFindAccountsByCustomerId(String customerId) throws SQLException {
     DataSource dataSource = null;
     
@@ -22,7 +22,7 @@ public class Controller {
   }
   
   public void unsafeFindProductsByCustomerId(String customerId) throws SQLException {
-    //method 2, trivial change
+    //method 2
     DataSource dataSource = null;
     
     String sql = "select "
