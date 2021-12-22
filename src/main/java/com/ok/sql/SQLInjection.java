@@ -1,4 +1,4 @@
-package com.sql;
+package com.ok.sql;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
